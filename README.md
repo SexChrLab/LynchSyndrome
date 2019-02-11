@@ -1,6 +1,6 @@
 # LynchSyndrome
 
-#### Get gene name & variant effect
+#### Mutational signature
 
 ```
 python get_genename_varianteffect.py MIL582_A2_NL_Renal_P4_VarScan_vep.tsv > Renal_genename_varianteffect.txt
