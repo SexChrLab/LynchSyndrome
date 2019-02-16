@@ -21,3 +21,11 @@ uniq B1_B5_B6_Renal_genename_varianteffect_missense.sn_uniq_genes.txt > B1_B5_B6
 
 ```
 
+### Mutational signature analyses
+
+#### For each sample, catalog how many missense mutations and synonymous mutations there are
+
+* Obtain just the missense mutations
+  - `catalog_missense_sn.sh`
+
+* 
