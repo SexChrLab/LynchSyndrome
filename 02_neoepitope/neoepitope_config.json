@@ -1,0 +1,31 @@
+{
+  "reprocessed_bams_directory": "/data/CEM/wilsonlab/from_collaborators/LynchSyndrome/bam_realign/",
+  "ref": "/data/CEM/shared/public_data/references/1000genomes_GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+  "ref_index": "/data/CEM/shared/public_data/references/1000genomes_GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai",
+  "sample_ids": ["breast_biopsy_1", "breast_biopsy_2", "breast_biopsy_3", "renal", "colorectal_1", "colorectal_2", "normal"],
+  "tumor_ids": ["breast_biopsy_1", "breast_biopsy_2", "breast_biopsy_3", "renal", "colorectal_1", "colorectal_2"],
+  "breast_biopsy_1" : {
+  "normal" : "normal",
+  "tumor" : "breast_biopsy_1"
+  },
+  "breast_biopsy_2" : {
+  "normal" : "normal",
+  "tumor" : "breast_biopsy_2"
+  },
+  "breast_biopsy_3" : {
+  "normal" : "normal",
+  "tumor" : "breast_biopsy_3"
+  },
+  "renal" : {
+  "normal" : "normal",
+  "tumor" : "renal"
+  },
+  "colorectal_1" : {
+  "normal" : "normal",
+  "tumor" : "colorectal_1"
+  },
+  "colorectal_2" : {
+  "normal" : "normal",
+  "tumor" : "colorectal_2"
+  }
+}
