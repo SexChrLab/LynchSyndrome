@@ -1,0 +1,9 @@
+{
+  "sample_ids": ["breast_biopsy_1", "breast_biopsy_2", "breast_biopsy_3", "renal", "colorectal_1", "colorectal_2"],
+  "configuration_script": "/scratch/tphung3/Neoepitope_Prediction/configuration.py",
+  "run_mhc_script": "/scratch/tphung3/Neoepitope_Prediction/run_mhc.py",
+  "remove_bad_peptides_script": "/scratch/tphung3/Neoepitope_Prediction/remove_bad_peptides.py",
+  "peptides_directory": "/agavescratch/tphung3/LynchSyndrome/02_neoepitope/peptides/",
+  "peptide_length": ["15", "17", "19", "21"]
+
+}
