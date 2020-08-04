@@ -1,0 +1,91 @@
+{
+  "bams_directory": "/data/CEM/wilsonlab/from_collaborators/LynchSyndrome/bam_original",
+  "ref": "/data/CEM/shared/public_data/references/1000genomes_GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+  "ref_index": "/data/CEM/shared/public_data/references/1000genomes_GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai",
+  "new_ids": ["breast_biopsy_1", "breast_biopsy_2", "breast_biopsy_3", "renal", "colorectal_1", "colorectal_2", "normal"],
+  "rerun_colorectal_1": ["colorectal_1"],
+  "breast_biopsy_1": {
+    "bam_filename": "MIL582_B1-AN_P4.FCHK5NFBBXX_L1_ITCCGGAGA-ATAGAGGC.bam",
+    "symlink_bam_filename": "breast_biopsy_1.bam",
+    "fq_path": "/scratch/tphung3/LynchSyndrome/01_strip_remap/strip_reads/breast_biopsy_1/fastq/",
+    "fq_1": "breast_biopsy_1_MIL582_B1-AN_P4_1.fastq.gz",
+    "fq_2": "breast_biopsy_1_MIL582_B1-AN_P4_2.fastq.gz",
+    "ID": "MIL582_B1-AN_P4",
+    "SM": "MIL582_B1-AN_P4",
+    "LB": "/research/bsi/tools/pipelines/primary/refs/human/ncbi/hg19/allchr.fa",
+    "PU": "MAYO",
+    "PL": "illumina"
+  },
+  "breast_biopsy_2": {
+    "bam_filename": "MIL582_B5-AN_P4.FCHK5NFBBXX_L1_ICGCTCATT-CCTATCCT.bam",
+    "symlink_bam_filename": "breast_biopsy_2.bam",
+    "fq_path": "/scratch/tphung3/LynchSyndrome/01_strip_remap/strip_reads/breast_biopsy_2/fastq/",
+    "fq_1": "breast_biopsy_2_MIL582_B5-AN_P4_1.fastq.gz",
+    "fq_2": "breast_biopsy_2_MIL582_B5-AN_P4_2.fastq.gz",
+    "ID": "MIL582_B5-AN_P4",
+    "SM": "MIL582_B5-AN_P4",
+    "LB": "/research/bsi/tools/pipelines/primary/refs/human/ncbi/hg19/allchr.fa",
+    "PU": "MAYO",
+    "PL": "illumina"
+  },
+  "breast_biopsy_3": {
+    "bam_filename": "MIL582_B6-AN_P4.FCHK5NFBBXX_L1_IGAGATTCC-GGCTCTGA.bam",
+    "symlink_bam_filename": "breast_biopsy_3.bam",
+    "fq_path": "/scratch/tphung3/LynchSyndrome/01_strip_remap/strip_reads/breast_biopsy_3/fastq/",
+    "fq_1": "breast_biopsy_3_MIL582_B6-AN_P4_1.fastq.gz",
+    "fq_2": "breast_biopsy_3_MIL582_B6-AN_P4_2.fastq.gz",
+    "ID": "MIL582_B6-AN_P4",
+    "SM": "MIL582_B6-AN_P4",
+    "LB": "/research/bsi/tools/pipelines/primary/refs/human/ncbi/hg19/allchr.fa",
+    "PU": "MAYO",
+    "PL": "illumina"
+  },
+  "renal": {
+    "bam_filename": "MIL582_Renal_P4.FCHLFV7BBXX_L2.bam",
+    "symlink_bam_filename": "renal.bam",
+    "fq_path": "/scratch/tphung3/LynchSyndrome/01_strip_remap/strip_reads/renal/fastq/",
+    "fq_1": "renal_MIL582_Renal_P4_1.fastq.gz",
+    "fq_2": "renal_MIL582_Renal_P4_2.fastq.gz",
+    "ID": "MIL582_Renal_P4",
+    "SM": "MIL582_Renal_P4",
+    "LB": "/research/bsi/tools/pipelines/primary/refs/human/ncbi/hg19/allchr.fa",
+    "PU": "MAYO",
+    "PL": "illumina"
+  },
+  "colorectal_1": {
+    "bam_filename": "MIL582_CRC-Q_P4.FCHN5MNBBXX_L4_IACCTCCAA.bam",
+    "symlink_bam_filename": "colorectal_1.bam",
+    "fq_path": "/data/kander22/LynchSyndrome/01_strip_remap/strip_reads/colorectal_1/fastq/",
+    "fq_1": "colorectal_1_MIL582_CRC-Q_P4_1.fastq.gz",
+    "fq_2": "colorectal_1_MIL582_CRC-Q_P4_2.fastq.gz",
+    "ID": "MIL582_CRC-Q_P4",
+    "SM": "MIL582_CRC-Q_P4",
+    "LB": "/research/bsi/tools/pipelines/primary/refs/human/ncbi/hg19/allchr.fa",
+    "PU": "MAYO",
+    "PL": "illumina"
+  },
+  "colorectal_2": {
+    "bam_filename": "SA-12560-B6-P4.FCHFFJLBBXY_L5.bam",
+    "symlink_bam_filename": "colorectal_2.bam",
+    "fq_path": "/scratch/tphung3/LynchSyndrome/01_strip_remap/strip_reads/colorectal_2/fastq/",
+    "fq_1": "colorectal_2_SA-12560-B6-P4_1.fastq.gz",
+    "fq_2": "colorectal_2_SA-12560-B6-P4_2.fastq.gz",
+    "ID": "SA-12560-B6-P4",
+    "SM": "SA-12560-B6-P4",
+    "LB": "/research/bsi/data/refdata/grc/human/GRCh38/processed/2015_04_04/seqs_for_alignment_pipelines.ucsc_ids/bwa_0.7.10_index/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa",
+    "PU": "MAYO",
+    "PL": "illumina"
+  },
+  "normal": {
+    "bam_filename": "MIL582_A2_NL.FCHK5NFBBXX_L1_IATTACTCG-TATAGCCT.bam",
+    "symlink_bam_filename": "normal.bam",
+    "fq_path": "/scratch/tphung3/LynchSyndrome/01_strip_remap/strip_reads/normal/fastq/",
+    "fq_1": "normal_MIL582_A2_NL_1.fastq.gz",
+    "fq_2": "normal_MIL582_A2_NL_2.fastq.gz",
+    "ID": "MIL582_A2_NL",
+    "SM": "MIL582_A2_NL",
+    "LB": "/research/bsi/tools/pipelines/primary/refs/human/ncbi/hg19/allchr.fa",
+    "PU": "MAYO",
+    "PL": "illumina"
+  }
+}
