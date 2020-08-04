@@ -1,0 +1,4 @@
+{
+  "reprocessed_bams_directory": "/data/CEM/wilsonlab/from_collaborators/LynchSyndrome/bam_realign/",
+  "sample_ids": ["breast_biopsy_1", "breast_biopsy_2", "breast_biopsy_3", "renal", "colorectal_1", "colorectal_2", "normal"]
+}
