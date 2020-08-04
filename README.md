@@ -14,3 +14,22 @@ Link: https://www.nature.com/articles/s41598-020-68939-7
 - Config file: `neoepitope_config.json`
 - Snakefile for running the neoepitope pipeline: `neoepitope.snakefile`
 - Snakefile for filtering indels: `filter_indels.snakefile`
+
+## 03_hla
+- HLA typing using the program HLA-LA (https://github.com/DiltheyLab/HLA-LA)
+- Config file: `hla_config.json`
+- Snakefile for HLA-typing: `hla.snakefile`
+
+## 04_run_mhc
+- Calculate binding affinity using the IEDB program
+- Config file: `run_mhc_config.json`
+- Snakefile: `run_mhc.snakefile`
+
+## 05_find_neoepitopes
+- Filtering to obtain potential neoepitopes
+- Config file: `find_neoepitopes_config.json`
+- Snakefile: `find_neoepitopes.snakefile`
+
+## 06_neoepitope_landscape
+
+## 07_mutation_landscape
