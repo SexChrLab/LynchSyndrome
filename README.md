@@ -1,31 +1,16 @@
 # LynchSyndrome
 
-#### Mutational signature
+This repository contains scripts for the article: *Unique genomic and neoepitope landscapes across tumors: a study across time, tissues, and space within a single lynch syndrome patient* (Phung et al. Scientific Reports 2020)
+Link: https://www.nature.com/articles/s41598-020-68939-7
 
-```
-python get_genename_varianteffect.py MIL582_A2_NL_Renal_P4_VarScan_vep.tsv > Renal_genename_varianteffect.txt
+## 01_strip_remap
+- We ontained the bam files from Mayo. Since the data from Mayo are in bam format and were mapped to different reference genome, we stripped the reads and remapped to GRCh38.
+- For reference genome, we used 1000 Genome version of GRCh38 (ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/)
+- Config file: `strip_remap_config.json`
+- Snakefile for stripping reads and remapping: `strip_remap.snakefile`
 
-grep -E 'missense|synonymous' Renal_genename_varianteffect.txt > Renal_genename_varianteffect_missense.sn.txt
-
-uniq Renal_genename_varianteffect_missense.sn.txt > Renal_genename_varianteffect_missense.sn_uniq.txt
-```
-
-* Find a list of genes
-
-```
-cat B1_genename_varianteffect_missense.sn_uniq.txt B5_genename_varianteffect_missense.sn_uniq.txt B6_genename_varianteffect_missense.sn_uniq.txt Renal_genename_varianteffect_missense.sn_uniq.txt > B1_B5_B6_Renal_genename_varianteffect_missense.sn_uniq.txt
-
-awk '{print$1}' B1_B5_B6_Renal_genename_varianteffect_missense.sn_uniq.txt > B1_B5_B6_Renal_genename_varianteffect_missense.sn_uniq_genes.txt
-
-uniq B1_B5_B6_Renal_genename_varianteffect_missense.sn_uniq_genes.txt > B1_B5_B6_Renal_genename_varianteffect_missense.sn_uniq_genes_uniq.txt
-
-```
-
-### Mutational signature analyses
-
-#### For each sample, catalog how many missense mutations and synonymous mutations there are
-
-* Obtain just the missense mutations
-  - `catalog_missense_sn.sh`
-
-* 
+## 02_neoepitope
+- Run the neoepitope pipeline
+- Config file: `neoepitope_config.json`
+- Snakefile for running the neoepitope pipeline: `neoepitope.snakefile`
+- Snakefile for filtering indels: `filter_indels.snakefile`
